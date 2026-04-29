@@ -3,7 +3,7 @@ name: NodeLoc Auto Login
 on:
   schedule:
     # 每天 UTC 时间凌晨 0 点运行一次 (北京/台北时间上午 8 点)
-    - cron: '0 0 * * *'
+    - cron: '0 1 * * *'
   workflow_dispatch: # 允许你在 GitHub 页面上手动点击按钮触发运行
 
 jobs:
